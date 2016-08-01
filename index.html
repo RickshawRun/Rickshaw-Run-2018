@@ -17,6 +17,10 @@
         </script>
       </marquee>
     </body>
+    var Dropdown = require('dropdown');
+    var dropdown = new Dropdown('.fruits-dropdown');
+    dropdown
+    .add('About Us', function(){ console.log('About Us selected'); })
   </head>
 
   <body>
